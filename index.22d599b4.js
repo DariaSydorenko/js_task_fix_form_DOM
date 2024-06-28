@@ -1,0 +1,2 @@
+function e(e){var r;return(r=e.replace(/([A-Z])/g," $1").trim()).charAt(0).toUpperCase()+r.slice(1)}var r=document.querySelectorAll("input"),t=!0,l=!1,a=void 0;try{for(var n,c=r[Symbol.iterator]();!(t=(n=c.next()).done);t=!0){var o=n.value;o.insertAdjacentHTML("beforebegin",'<label class="field-label" for='.concat(o.id,">").concat(e(o.name),"</label>")),o.setAttribute("placeholder",e(o.name))}}catch(e){l=!0,a=e}finally{try{t||null==c.return||c.return()}finally{if(l)throw a}}
+//# sourceMappingURL=index.22d599b4.js.map
